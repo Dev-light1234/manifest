@@ -3,9 +3,6 @@
 
 <remote name="github"
         fetch="https://github.com/" />
-        
-<remote name="gitlab"
-        fetch="https://gitlab.com/" />        
 
   <!-- Removals -->
   <remove-project name="system_vold" />
