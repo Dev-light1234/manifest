@@ -5,7 +5,6 @@
         fetch="https://github.com/" />
 
   <!-- Removals -->
-  <remove-project name="bionic" />
   <remove-project name="vendor_aosp" />
   <remove-project name="system_vold" />
   <remove-project name="frameworks_native" />
@@ -22,7 +21,6 @@
   <project name="PixelExperience-i9300/specific-things/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" remote="gitlab" revision="pie" />
 
   <!-- Extras -->
-  <project name="PixelExperience-i9300/bionic" path="bionic" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9300/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9300/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" />
   <project name="PixelExperience-i9100/specific-things/pie/system_vold" path="system/vold" remote="gitlab" revision="pie" />
