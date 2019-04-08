@@ -9,19 +9,19 @@
   <remove-project name="frameworks_native" />
 
   <!-- Device -->
-  <project name="PixelExperience-i9300/device-tree/device_samsung_i9300" path="device/samsung/i9300" remote="gitlab" revision="pie" />
-  <project name="PixelExperience-i9300/device-tree/device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9300/device_samsung_i9300" path="device/samsung/i9300" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9300/device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="gitlab" revision="pie" />
 
   <!-- Kernel -->
   <project name="ChronoMonochrome/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
   <project name="CustomROMs/android_vendor_samsung_i9300" path="vendor/samsung/i9300" remote="github" revision="lineage-16.0" />
-  <project name="PixelExperience-i9300/specific-things/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9300/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" remote="gitlab" revision="pie" />
 
   <!-- Extras -->
-  <project name="PixelExperience-i9300/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />
-  <project name="PixelExperience-i9300/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" />
-  <project name="PixelExperience-i9300/specific-things/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-ASB/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-ASB/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" />
+  <project name="PixelExperience-i9300/hardware_samsung" path="hardware/samsung" remote="gitlab" revision="pie" />
   <project name="dot-i9300/packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="pie" />
 </manifest>
