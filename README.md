@@ -24,7 +24,7 @@ repo sync -c --force-sync --no-clone-bundle --no-tags
 subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
 mkdir .android-certs
 for x in releasekey platform shared media testkey; do \
-    ./development/tools/make_key ~/.android-certs/$x "$subject"; \
+    ./development/tools/make_key .android-certs/$x "$subject"; \
 done
 ```
 
