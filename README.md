@@ -8,7 +8,7 @@
 repo init -u https://github.com/PixelExperience/manifest -b pie
 
 # Clone my local repo
-git clone https://gitlab.com/PixelExperience-i9300/local_manifests.git -b pie .repo/local_manifests
+git clone https://github.com/pixelexperience-i9300/manifest.git -b pie .repo/local_manifests
 
 # Sync
 repo sync -c --force-sync --no-clone-bundle --no-tags
