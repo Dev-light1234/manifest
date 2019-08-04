@@ -9,16 +9,15 @@
   <remove-project name="frameworks_native" />
 
   <!-- Device -->
-  <project name="pixelexperience-i9300/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="pie" />
+  <project name="pixelexperience-i9300/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="pie" />
   <project name="pixelexperience-i9300/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="pie" />
 
   <!-- Kernel -->
   <project name="team-infusion-developers/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
-  <project name="CustomROMs/android_vendor_samsung_i9300" path="vendor/samsung/i9300" remote="github" revision="lineage-16.0" />
-  <project name="PixelExperience-i9300/android_vendor_samsung_smdk4412-common" path="vendor/samsung/smdk4412-common" remote="gitlab" revision="pie" />
-
+  <project name="ComicoTeam/proprietary_vendor_samsung_n7100" path="vendor/samsung" remote="github" revision="pie" />
+        
   <!-- Extras -->
   <project name="PixelExperience-ASB/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />
   <project name="PixelExperience-ASB/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" />
