@@ -9,11 +9,11 @@
   <remove-project name="frameworks_native" />
 
   <!-- Device -->
-  <project name="pixelexperience-i9300/device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="pie" />
-  <project name="pixelexperience-i9300/device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="pie" />
+  <project name="pixelexperience-i9300/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="pie" />
+  <project name="pixelexperience-i9300/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="pie" />
 
   <!-- Kernel -->
-  <project name="ChronoMonochrome/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
+  <project name="team-infusion-developers/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="lineage-16.0" />
 
   <!-- Vendor -->
   <project name="CustomROMs/android_vendor_samsung_i9300" path="vendor/samsung/i9300" remote="github" revision="lineage-16.0" />
@@ -22,6 +22,6 @@
   <!-- Extras -->
   <project name="PixelExperience-ASB/vendor_aosp" path="vendor/aosp" remote="gitlab" revision="pie" />
   <project name="PixelExperience-ASB/frameworks_native" path="frameworks/native" remote="gitlab" revision="pie" />
-  <project name="pixelexperience-i9300/hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />
+  <project name="pixelexperience-i9300/android_hardware_samsung" path="hardware/samsung" remote="github" revision="pie" />
   <project name="dot-i9300/packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="pie" />
 </manifest>
