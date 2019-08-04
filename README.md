@@ -8,7 +8,7 @@
 repo init -u https://github.com/PixelExperience/manifest -b pie
 
 # Clone my local repo
-git clone https://github.com/pixelexperience-i9300/manifest.git -b pie .repo/local_manifests
+git clone https://github.com/pixelexperience-i9300/manifest.git -b pie-n7100 .repo/local_manifests
 
 # Sync
 repo sync -c --force-sync --no-clone-bundle --no-tags
@@ -34,7 +34,7 @@ done
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch aosp_i9300-userdebug
+$ lunch aosp_n7100-userdebug
 
 # Build the code
 $ mka bacon
