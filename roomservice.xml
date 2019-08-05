@@ -7,7 +7,9 @@
   <!-- Removals -->
   <remove-project name="vendor_aosp" />
   <remove-project name="frameworks_native" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
 
+        
   <!-- Device -->
   <project name="pixelexperience-i9300/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="pie" />
   <project name="pixelexperience-i9300/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="pie-n7100" />
