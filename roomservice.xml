@@ -5,9 +5,7 @@
         fetch="https://github.com/" />
 
   <!-- Removals -->
-  <remove-project name="vendor_aosp" />
   <remove-project name="frameworks_native" />
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
 
         
   <!-- Device -->
